@@ -10,8 +10,8 @@ npm i
 ```
 
 #### Startup
-1. Edit `config.json` (get token from [here](https://id.twitch.tv/oauth2/authorize?client_id=cfm058kb3l9cxj30tztcbh1nppcct3&redirect_uri=https%3A%2F%2Ftwitchapps.com%2Ftokengen%2F&response_type=token&scope=user_read+chat%3Aedit+chat%3Aread+user_subscriptions+user_blocks_edit+user_blocks_read+user_follows_edit+channel%3Amoderate%20whispers:read%20whispers:edit))
-2. Fill **channels.txt** with channel names (one per line)
+1. Rename `config.example.json` to `config.json` and edit it (get token from [here](https://id.twitch.tv/oauth2/authorize?client_id=cfm058kb3l9cxj30tztcbh1nppcct3&redirect_uri=https%3A%2F%2Ftwitchapps.com%2Ftokengen%2F&response_type=token&scope=user_read+chat%3Aedit+chat%3Aread+user_subscriptions+user_blocks_edit+user_blocks_read+user_follows_edit+channel%3Amoderate%20whispers:read%20whispers:edit))
+2. Create **channels.txt** and fill it with channel names (one per line)
 3. `node .`
 4. ???
 5. Profit
