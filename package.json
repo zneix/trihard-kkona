@@ -1,0 +1,8 @@
+{
+	"name": "kkona-trihard",
+	"main": "index.js",
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"dank-twitch-irc": "^3.2.6"
+	}
+}
