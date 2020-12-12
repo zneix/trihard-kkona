@@ -22,7 +22,7 @@ client.on('USERNOTICE', msg => {
     if (msg.isSubgift() || msg.isAnonSubgift()){
         //you got a sub VisLaud
         if (msg.eventParams.recipientDisplayName.toLowerCase() == config.username.toLowerCase()){
-            util.logTime(`${chalk.hex('#F97304')('[SUB RECIEVED]')} ${chalk.red('#' + msg.channelName)} || ${chalk.yellow(msg.displayName || '👻 Anonymous')}`);
+            util.logTime(`${chalk.hex('#F97304')('[SUB RECEIVED]')} ${chalk.red('#' + msg.channelName)} || ${chalk.yellow(msg.displayName || '👻 Anonymous')}`);
         }
         else {
             util.logTime(`${chalk.green('[SUBGIFT]')} || ${chalk.red('#' + msg.channelName)} || ${chalk.yellow(msg.displayName || '👻 Anonymous')} -> ${chalk.magenta(msg.eventParams.recipientDisplayName)}`, 1);
